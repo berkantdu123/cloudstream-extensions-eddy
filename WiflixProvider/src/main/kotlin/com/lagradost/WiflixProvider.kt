@@ -18,7 +18,7 @@ class WiflixProvider : MainAPI() {
     override var name = "Wiflix"
     override val hasQuickSearch = false // recherche rapide (optionel, pas vraimet utile)
     override val hasMainPage = true // page d'accueil (optionel mais encoragé)
-    override var lang = "fr" // fournisseur est en francais
+    override var lang = "fr" // fourni+sseur est en francais
     override val supportedTypes =
         setOf(TvType.Movie, TvType.TvSeries) // series, films
     private val interceptor = CloudflareKiller()
